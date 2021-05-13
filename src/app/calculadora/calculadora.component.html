@@ -1,0 +1,14 @@
+<label>
+    Altura (em metros):
+    <input type="text" (change)="updateIMC()" [formControl]="altura">
+  </label>
+
+  <label>
+    Peso (em quilos):
+    <input type="text" (change)="updateIMC()" [formControl]="peso">
+  </label>
+
+
+  <p>
+    Value: {{ imc.value }}
+  </p>
